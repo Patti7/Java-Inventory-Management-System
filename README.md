@@ -1,0 +1,1 @@
+A Java-based inventory management system demonstrating OOP, inheritance, file I/O, and basic product management operations. This project showcases core Java skills used in real-world applications, including class hierarchies, data persistence, and object manipulation.
