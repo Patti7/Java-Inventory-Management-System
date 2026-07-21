@@ -1,22 +1,21 @@
-📦 Java Inventory Management System
+# 📦 Java Inventory Management System
 
-A Java-based inventory management system demonstrating OOP, inheritance, file I/O, and basic product management operations. This project showcases core Java skills used in real-world applications, including class hierarchies, data persistence, and object manipulation.
+A Java-based inventory management system demonstrating **OOP**, **inheritance**, **file I/O**, and basic product management operations. This project showcases core Java skills used in real-world applications, including class hierarchies, data persistence, and object manipulation.
 
-✨ Features
+---
 
-Object-Oriented Design — Uses classes, inheritance, and polymorphism
+## ✨ Features
 
-Product Hierarchy — Electronics and FoodItem extend a base Product class
+- Object-Oriented Design — Uses classes, inheritance, and polymorphism  
+- Product Hierarchy — Electronics and FoodItem extend a base Product class  
+- Inventory Manager — Add, update, and retrieve products  
+- File Persistence — Saves and loads inventory from `inventory.txt`  
+- Automatic Loading — Loads existing inventory on startup  
+- Simple Demo Workflow — Adds sample products and updates quantities  
 
-Inventory Manager — Add, update, and retrieve products
+---
 
-File Persistence — Saves and loads inventory from inventory.txt
-
-Automatic Loading — Loads existing inventory on startup
-
-Simple Demo Workflow — Adds sample products and updates quantities
-
-📁 Folder Structure
+## 📁 Folder Structure
 
 Java-Inventory-Management-System/
 
@@ -34,62 +33,58 @@ Java-Inventory-Management-System/
 
 └── inventory.txt
 
-🚀 How to Run
 
-Using jGRASP:
+---
 
-Place all .java files in the same folder
+## 🚀 How to Run
 
-Open the folder in jGRASP
+### **Using jGRASP**
+1. Place all `.java` files in the same folder  
+2. Open the folder in jGRASP  
+3. Compile `InventoryApp.java`  
+4. Run the program  
+5. `inventory.txt` will be created automatically if missing  
 
-Compile InventoryApp.java
+### **Using VS Code**
+1. Open the **entire folder**  
+2. Ensure Java extensions are installed  
+3. Run `InventoryApp.java`  
+4. Make sure `inventory.txt` is in the same directory  
 
-Run the program
+---
 
-inventory.txt will be created automatically if missing
+## 🧠 How It Works
 
-
-Using VS Code:
-
-Open the entire folder
-
-Ensure Java extensions are installed
-
-Run InventoryApp.java
-
-Make sure inventory.txt is in the same directory
-
-🧠 How It Works
-
-1. Load Inventory
-The program attempts to load existing data from inventory.txt.
+### **Load Inventory**
+The program attempts to load existing data from `inventory.txt`.  
 If the file doesn’t exist, it starts fresh.
 
-2. Add Demo Products
+### **Add Demo Products**
 Two sample products are added:
-Laptop (Electronics)
-Milk (FoodItem)
 
-3. Update Quantity
+- Laptop (Electronics)  
+- Milk (FoodItem)
+
+### **Update Quantity**
 The quantity of the Laptop is updated.
 
-4. Save Inventory
-All products are saved back into inventory.txt.
+### **Save Inventory**
+All products are saved back into `inventory.txt`.
 
-🔮 Future Improvements
+---
 
-Interactive Console Menu
+## 🔮 Future Improvements
 
-Prevent Duplicate Product IDs
+- Interactive Console Menu  
+- Prevent Duplicate Product IDs  
+- Search and Filter Options  
+- Sorting Algorithms  
+- GUI Version  
+- JSON or Database Storage  
 
-Search and Filter Options
+---
 
-Sorting Algorithms
-
-GUI Version
-
-JSON or Database Storage
-
-📜 License
+## 📜 License
 
 This project is open-source and free to use for learning and portfolio purposes.
+
